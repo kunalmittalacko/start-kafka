@@ -27,7 +27,7 @@ public class ProducerWithKeys {
 
         for (int i = 0; i < 10; i++) {
             final String key = "id_" + i;
-            final ProducerRecord<String, String> record = new ProducerRecord<String, String>("fifth-topic",key, "new_message_" + i);
+            final ProducerRecord<String, String> record = new ProducerRecord<String, String>("fourth-topic",key, "new_message_" + i);
             System.out.println("key " + key);
             producer.send(record, new Callback() {
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {

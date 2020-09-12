@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0a16322-6244-45eb-9e00-229eea412a9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/ConsumerGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/ConsumerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/ProducerWithKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/ProducerWithKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/ProducerWithCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/ProducerWithCallback$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/ProducerWithCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/ProducerWithCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/ProducerWithKeys$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/ProducerWithKeys$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/ProducerWithKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/ProducerWithKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -37,8 +52,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.ProducerWithKeys">
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.Producer" />
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.Consumer" />
       <module name="start-kafka" />
       <extension name="coverage">
         <pattern>
@@ -50,8 +65,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerWithCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.ProducerWithCallback" />
+    <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.Consumer2" />
+      <module name="start-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.ConsumerGroups" />
+      <module name="start-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.Producer" />
       <module name="start-kafka" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +120,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProducerWithKeys" />
-        <item itemvalue="Application.ProducerWithCallback" />
         <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.ConsumerGroups" />
+        <item itemvalue="Application.Consumer2" />
+        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -118,25 +161,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599908592671" />
-    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1599922853069">
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1599933377310">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599922853069" />
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599933377310" />
     <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1599922228624" />
-    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1599922853068">
+    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1599933377308">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599922853068" />
+    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599933377308" />
     <state width="1398" height="425" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1599922228622" />
-    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1599922853067">
+    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1599933377306">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599922853067" />
+    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599933377306" />
     <state width="1398" height="425" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1599922228621" />
-    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1599922853068">
+    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1599933377309">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599922853068" />
+    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599933377309" />
     <state width="1398" height="425" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1599922228623" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1599920904310">
       <screen x="0" y="0" width="1440" height="900" />
